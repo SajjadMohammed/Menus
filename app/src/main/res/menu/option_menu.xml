@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sendItem"
+        android:title="Send"
+        android:icon="@drawable/send_icon"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/mainItem"
+        android:title="Mail Us"
+        android:icon="@drawable/mail_icon"
+        app:showAsAction="never"
+        />
+</menu>
